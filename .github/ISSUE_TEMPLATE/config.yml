@@ -1,0 +1,27 @@
+##
+# GitHub Issue template configurations.
+#
+# @link https://ajv.to/github-pr-template
+#
+# yaml-language-server: $schema=https://json.schemastore.org/github-issue-config.json
+---
+##
+# This project doesn't support generic, empty Issues.
+#
+blank_issues_enabled: false
+
+##
+# Additional links to community Discussions.
+#
+contact_links:
+  - name: Support request
+    url: https://github.com/andrewvaughan/template-core/discussions
+    about: If you have a question as to how to install, configure, or use anything from this project, please ask here.
+
+  - name: Share an idea
+    url: https://github.com/andrewvaughan/template-core/discussions/categories/ideas
+    about: Discuss ideas for the project with the community.
+
+  - name: Open forum
+    url: https://github.com/andrewvaughan/template-core/discussions/categories/general
+    about: The forum for general conversation and other topics.

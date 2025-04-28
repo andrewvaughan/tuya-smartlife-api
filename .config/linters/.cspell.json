@@ -1,0 +1,74 @@
+{
+  "version": "0.2",
+
+  "language": "en",
+
+  "allowCompoundWords": true,
+  "noConfigSearch": true,
+
+  "dictionaries": [
+    "ops",
+    "project",
+
+    "makefile",
+    "terminfo",
+
+    "en_us",
+    "en-common-misspellings",
+    "en-us-common-misspelling",
+
+    "companies",
+    "computing-acronyms",
+    "data-science",
+    "filetypes",
+    "fonts",
+    "networking-terms",
+    "public-licenses",
+    "softwareTerms",
+    "web-services",
+
+    "bash",
+    "docker",
+    "git",
+    "html",
+    "npm"
+  ],
+
+  "dictionaryDefinitions": [
+    {
+      "name": "ops",
+      "path": "../dictionaries/ops.txt",
+      "addWords": false
+    },
+    {
+      "name": "makefile",
+      "path": "../dictionaries/ops-deps/makefile.txt",
+      "addWords": false
+    },
+    {
+      "name": "terminfo",
+      "path": "../dictionaries/ops-deps/terminfo.txt",
+      "addWords": false
+    },
+    {
+      "name": "project",
+      "path": "../dictionaries/project.txt",
+      "addWords": true
+    }
+  ],
+
+  "ignorePaths": [
+    "**/*.svg",
+    "**/.config/linters/vale/styles/Google/**",
+    "**/.config/linters/vale/styles/config/vocabularies/**/reject.txt",
+    "**/.git/**",
+    "**/.gitattributes",
+    "**/.gitignore",
+    "**/.pnpm-lock.json",
+    "**/*megalinter*",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/docs/assets/**",
+    "package-lock.json"
+  ]
+}

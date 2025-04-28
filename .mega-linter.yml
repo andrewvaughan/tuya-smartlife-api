@@ -1,0 +1,123 @@
+##
+# Configuration file for MegaLinter.
+#
+# @link https://megalinter.io/latest/configuration/
+#
+---
+##
+# Linters that support fixing in-place do so within the commit.
+#
+# When applying basic fixes, this doesn't create another Pull Request or commit - MegaLinter fixes small changes
+# in-place during testing. Modify this in the `.github/workflows/.mega-linter.yml` configuration, if needed.
+#
+APPLY_FIXES: "all"
+
+##
+# Clear the `megalinter-reports` folder before each run.
+#
+CLEAR_REPORT_FOLDER: true
+
+##
+# Never run these linters, regardless of flavor or configuration.
+#
+# DISABLE_LINTERS:
+##
+# Lychee is _extremely_ slow right now, and Markdown link checking occurs with other linters. Consider the usefulness
+# of dead hyper link checking in code comments before re-enabling.
+#
+#   - SPELL_LYCHEE
+
+##
+# Don't create public reports on file.io.
+#
+FILEIO_REPORTER: false
+
+##
+# Recommend flavors to the developer to help reduce container layer size.
+#
+# Mature projects may want to turn this off to reduce linter spam.
+#
+FLAVOR_SUGGESTIONS: true
+
+##
+# Follow the `.gitignore` file for what files to ignore in the linter.
+#
+IGNORE_GITIGNORED_FILES: true
+
+##
+# For Javascript / Typescript projects, use the Prettier style.
+#
+JAVASCRIPT_DEFAULT_STYLE: "prettier"
+TYPESCRIPT_DEFAULT_STYLE: "prettier"
+
+##
+# The project moves linting configurations out of the project root to reduce root file bloat.
+#
+LINTER_RULES_PATH: ".config/linters"
+
+##
+# Use markdownlint styling instead of remark.
+#
+MARKDOWN_DEFAULT_STYLE: "markdownlint"
+
+##
+# Run linters in parallel for performance.
+#
+PARALLEL: true
+
+##
+# Avoid unnecessary text output in logs.
+#
+PRINT_ALPACA: false
+
+##
+# Time elapsed information helps with optimization.
+#
+SHOW_ELAPSED_TIME: true
+
+##
+# Allow developers to review other linters that may help with their project.
+#
+# Mature projects may want to turn this off to reduce linter spam.
+#
+SHOW_SKIPPED_LINTERS: true
+
+##
+# To speed up development, only validate changed files. Pull Requests still check all files.
+#
+VALIDATE_ALL_CODEBASE: false
+
+## ---------------------------------------------------------------------------------------------------------------------
+# Linter configurations.
+#
+
+##
+# The default Editor Config Checker filename has changed from the Megalinter default.
+#
+EDITORCONFIG_EDITORCONFIG_CHECKER_CONFIG_FILE: ".editorconfig-checker.json"
+
+##
+# TODO Manually include `*.mk` files, as Checkmake doesn't currently support includes.
+# @link https://github.com/mrtazz/checkmake/issues/97
+#
+MAKEFILE_CHECKMAKE_FILE_EXTENSIONS:
+  - ".mk"
+
+##
+# File ignore patterns for Vale.
+#
+#   - Vale style guide dependencies
+#   - Vale dictionary rejections
+#
+# SPELL_VALE_FILTER_REGEX_EXCLUDE: (\.config\/linters\/vale\/styles\/(Google\/.+|Vocab\/.+\/reject\.txt))
+
+##
+# File ignore patterns for v8r.
+#
+#   - Vale style guide dependencies
+#
+# TODO Also temporarily ignores GitHub Issue templates due to problem with schema update.
+# @link http://tinyurl.com/tplcore44
+#
+# YAML_V8R_FILTER_REGEX_EXCLUDE: (\.config\/linters\/vale\/styles\/Google\/.*|\.github/ISSUE_TEMPLATE/.*\.yml)
+YAML_V8R_FILTER_REGEX_EXCLUDE: (\.config\/linters\/vale\/styles\/Google\/.*)
