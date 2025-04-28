@@ -237,7 +237,7 @@ working on the effort.
 > an `upstream` for this project, you can run this command:
 >
 > ```bash
-> git remote add upstream https://github.com/andrewvaughan/template-core
+> git remote add upstream https://github.com/andrewvaughan/tuya-smartlife-api
 > ```
 >
 > To create your new Branch, ensure you're updated from the main Branch, first:
@@ -722,9 +722,9 @@ your Issues and Pull Requests with the code `:candy:`.
 <!-- Link repository -->
 <!-- editorconfig-checker-disable -->
 
-[branch-main]: https://github.com/andrewvaughan/template-core/tree/main
-[branch-production]: https://github.com/andrewvaughan/template-core/tree/production
-[branch-staging]: https://github.com/andrewvaughan/template-core/tree/staging
+[branch-main]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/main
+[branch-production]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/production
+[branch-staging]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/staging
 [cert-origin]: https://developercertificate.org/
 [codeowners]: CODEOWNERS
 [commit-example]: https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6
@@ -732,28 +732,28 @@ your Issues and Pull Requests with the code `:candy:`.
 [conduct]: CODE_OF_CONDUCT.md
 [dev-dependencies]: ../README.md#developer-dependencies
 [discord]: https://discord.gg/6x6T3yMtvB
-[discussions]: https://github.com/andrewvaughan/template-core/discussions
+[discussions]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions
 [editorconfig]: https://editorconfig.org/
 [feature-creep]: https://en.wikipedia.org/wiki/Feature_creep
 [fork]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
-[issue-bug]: https://github.com/andrewvaughan/template-core/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Bug+Fix&projects=&template=BUG_REPORT.yml
-[issue-feature]: https://github.com/andrewvaughan/template-core/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Feature+Request&projects=&template=FEATURE_REQUEST.yml
-[issue-security]: https://github.com/andrewvaughan/template-core/security/advisories/new
-[issues]: https://github.com/andrewvaughan/template-core/issues
-[issues-features]: https://github.com/andrewvaughan/template-core/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Type%3A+Feature%22
+[issue-bug]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Bug+Fix&projects=&template=BUG_REPORT.yml
+[issue-feature]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Feature+Request&projects=&template=FEATURE_REQUEST.yml
+[issue-security]: https://github.com/andrewvaughan/tuya-smartlife-api/security/advisories/new
+[issues]: https://github.com/andrewvaughan/tuya-smartlife-api/issues
+[issues-features]: https://github.com/andrewvaughan/tuya-smartlife-api/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Type%3A+Feature%22
 [license]: ../LICENSE
 [linting]: https://en.wikipedia.org/wiki/Lint_%28software%29
 [m-n-ms]: https://en.wikipedia.org/wiki/Van_Halen#Contract_riders
 [megalinter]: https://megalinter.io
 [megalinter-yml]: ../.mega-linter.yml
-[milestones]: https://github.com/andrewvaughan/template-core/milestones
-[project]: https://github.com/andrewvaughan/template-core
-[pull-requests]: https://github.com/andrewvaughan/template-core/pulls
+[milestones]: https://github.com/andrewvaughan/tuya-smartlife-api/milestones
+[project]: https://github.com/andrewvaughan/tuya-smartlife-api
+[pull-requests]: https://github.com/andrewvaughan/tuya-smartlife-api/pulls
 [readme]: ../README.md
 [rebasing]: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
-[releases]: https://github.com/andrewvaughan/template-core/releases
+[releases]: https://github.com/andrewvaughan/tuya-smartlife-api/releases
 [rubber-duck]: https://rubberduckdebugging.com
-[security]: https://github.com/andrewvaughan/template-core/security/policy
+[security]: https://github.com/andrewvaughan/tuya-smartlife-api/security/policy
 [sign-commits]: https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
 [squash]: https://www.git-tower.com/learn/git/faq/git-squash
 [support]: SUPPORT.md

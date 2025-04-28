@@ -15,13 +15,13 @@ blank_issues_enabled: false
 #
 contact_links:
   - name: Support request
-    url: https://github.com/andrewvaughan/template-core/discussions
+    url: https://github.com/andrewvaughan/tuya-smartlife-api/discussions
     about: If you have a question as to how to install, configure, or use anything from this project, please ask here.
 
   - name: Share an idea
-    url: https://github.com/andrewvaughan/template-core/discussions/categories/ideas
+    url: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/ideas
     about: Discuss ideas for the project with the community.
 
   - name: Open forum
-    url: https://github.com/andrewvaughan/template-core/discussions/categories/general
+    url: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/general
     about: The forum for general conversation and other topics.

@@ -46,7 +46,7 @@ changes prior to review.
 - [ ] The code follows [SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) principals
 - [ ] There are no exposed debugging messages left in the code
 - [ ] Your changes generate no new warnings or errors
-- [ ] Your code follows the project's [style guidelines](https://github.com/andrewvaughan/template-core/blob/main/.github/CONTRIBUTING.md#code-style)
+- [ ] Your code follows the project's [style guidelines](https://github.com/andrewvaughan/tuya-smartlife-api/blob/main/.github/CONTRIBUTING.md#code-style)
 - [ ] You have merged and published any dependent changes to downstream modules
 
 ## User experience quality checks
@@ -80,4 +80,4 @@ Pull Request.
 
 - [ ] By checking this box, you agree to the project's Contributing Guidelines as provided, here:
 
-<https://github.com/andrewvaughan/template-core/blob/main/.github/CONTRIBUTING.md>
+<https://github.com/andrewvaughan/tuya-smartlife-api/blob/main/.github/CONTRIBUTING.md>

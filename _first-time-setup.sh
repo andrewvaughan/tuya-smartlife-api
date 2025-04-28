@@ -74,7 +74,7 @@ fi
 _header "Updating repository link references to ${GIT_REPO}"
 
 find . \( -type d -name .git -prune -name _first-time-setup.sh -prune \) -o -type f -print0 |
-  xargs -0 sed -i "s@andrewvaughan/template-core@${GIT_REPO}@g"
+  xargs -0 sed -i "s@andrewvaughan/tuya-smartlife-api@${GIT_REPO}@g"
 
 echo "Done."
 

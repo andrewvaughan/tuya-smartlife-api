@@ -71,19 +71,19 @@ question quickly, letting you get back to doing what's important to you.
 
 [code-conduct]: CODE_OF_CONDUCT.md
 [contributing]: CONTRIBUTING.md
-[disc-announce]: https://github.com/andrewvaughan/template-core/discussions/categories/announcements
-[disc-general]: https://github.com/andrewvaughan/template-core/discussions/categories/general
-[disc-ideas]: https://github.com/andrewvaughan/template-core/discussions/categories/ideas
-[disc-polls]: https://github.com/andrewvaughan/template-core/discussions/categories/polls
-[disc-support]: https://github.com/andrewvaughan/template-core/discussions/categories/q-a-support
+[disc-announce]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/announcements
+[disc-general]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/general
+[disc-ideas]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/ideas
+[disc-polls]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/polls
+[disc-support]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions/categories/q-a-support
 [discord]: https://discord.gg/6x6T3yMtvB
-[gh-issues]: https://github.com/andrewvaughan/template-core/issues
-[gh-discussions]: https://github.com/andrewvaughan/template-core/discussions
-[issue-bug]: https://github.com/andrewvaughan/template-core/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Bug+Fix&projects=&template=BUG_REPORT.yml
-[issue-feature]: https://github.com/andrewvaughan/template-core/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Feature+Request&projects=&template=FEATURE_REQUEST.yml
-[issue-docs]: https://github.com/andrewvaughan/template-core/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Documentation&projects=&template=DOCUMENTATION_REQUEST.yml
-[issue-ops]: https://github.com/andrewvaughan/template-core/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Ops&projects=&template=OPERATIONAL_REQUEST.yml
-[issue-security]: https://github.com/andrewvaughan/template-core/security/advisories/new
+[gh-issues]: https://github.com/andrewvaughan/tuya-smartlife-api/issues
+[gh-discussions]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions
+[issue-bug]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Bug+Fix&projects=&template=BUG_REPORT.yml
+[issue-feature]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Feature+Request&projects=&template=FEATURE_REQUEST.yml
+[issue-docs]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Documentation&projects=&template=DOCUMENTATION_REQUEST.yml
+[issue-ops]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new?assignees=andrewvaughan&labels=Needs+Triage%2CRequest%3A+Ops&projects=&template=OPERATIONAL_REQUEST.yml
+[issue-security]: https://github.com/andrewvaughan/tuya-smartlife-api/security/advisories/new
 [rubber-duck]: https://rubberduckdebugging.com
 [xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
 

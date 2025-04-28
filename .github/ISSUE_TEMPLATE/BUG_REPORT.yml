@@ -24,7 +24,7 @@ body:
         address any bugs found.
 
         > **If you believe this is a Security Issue**, please draft a
-        > [Security Advisory Report](https://github.com/andrewvaughan/template-core/security/advisories/new) instead.
+        > [Security Advisory Report](https://github.com/andrewvaughan/tuya-smartlife-api/security/advisories/new) instead.
 
   ## -------------------------------------------------------------------------------------------------------------------
   # Environment.
@@ -301,7 +301,7 @@ body:
       label: Code of Conduct
       description: >-
         By submitting this Issue, I agree to the terms within and agree to follow this project's
-        [Code of Conduct](https://github.com/andrewvaughan/template-core?tab=coc-ov-file#readme).
+        [Code of Conduct](https://github.com/andrewvaughan/tuya-smartlife-api?tab=coc-ov-file#readme).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

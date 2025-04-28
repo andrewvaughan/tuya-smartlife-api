@@ -1,7 +1,7 @@
 ##
 # GitHub Action that syncs labels from the parent `template-core` Repository.
 #
-# @link https://github.com/andrewvaughan/template-core/labels
+# @link https://github.com/andrewvaughan/tuya-smartlife-api/labels
 #
 ---
 name: "Replace GitHub Labels with Standard"
@@ -61,7 +61,7 @@ jobs:
 
           # This can also stay up to date with the `template-core` Repository Labels, but this may cause issues with
           # automation and isn't generally recommended:
-          # source-repo: andrewvaughan/template-core
+          # source-repo: andrewvaughan/tuya-smartlife-api
 
           # If you're using a private source repo or a URL that needs an 'Authorization' header, you'll need to add a
           # custom token for the action to read it

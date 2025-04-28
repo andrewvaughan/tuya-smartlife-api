@@ -3,7 +3,7 @@
   "name": "Tag Common Rules",
   "target": "tag",
   "source_type": "Repository",
-  "source": "andrewvaughan/template-core",
+  "source": "andrewvaughan/tuya-smartlife-api",
   "enforcement": "active",
   "conditions": {
     "ref_name": {

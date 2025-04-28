@@ -3,7 +3,7 @@
 
 <!-- TODO - Update or remove the hero image. -->
 <div align="center">
-  <a href="https://github.com/andrewvaughan/template-core" target="blank" title="New Project Template">
+  <a href="https://github.com/andrewvaughan/tuya-smartlife-api" target="blank" title="New Project Template">
     <!-- markdown-link-check-disable-next-line -->
     <img
       src="https://media.githubusercontent.com/media/andrewvaughan/template-assets/main/png/readme/template-banner-1897x499.png"
@@ -195,37 +195,37 @@ The [LICENSE][license] file contains the full text of this project's License.
 <!-- Link repository -->
 <!-- editorconfig-checker-disable -->
 
-[badge-build]: https://github.com/andrewvaughan/template-core/actions
+[badge-build]: https://github.com/andrewvaughan/tuya-smartlife-api/actions
 [badge-build-img]: https://img.shields.io/badge/build-N/A-rgb(200%2C200%2C200).svg?style=flat&logo=dependabot&logoColor=white
-[badge-changes]: https://github.com/andrewvaughan/template-core/commits/main/
-[badge-changes-img]: https://img.shields.io/github/commits-since/andrewvaughan/template-core/latest?label=changes%20in%20next%20release
-[badge-coverage]: https://github.com/andrewvaughan/template-core
-[badge-coverage-img]: https://codecov.io/gh/andrewvaughan/template-core/branch/main/graph/badge.svg
+[badge-changes]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/main/
+[badge-changes-img]: https://img.shields.io/github/commits-since/andrewvaughan/tuya-smartlife-api/latest?label=changes%20in%20next%20release
+[badge-coverage]: https://github.com/andrewvaughan/tuya-smartlife-api
+[badge-coverage-img]: https://codecov.io/gh/andrewvaughan/tuya-smartlife-api/branch/main/graph/badge.svg
 [badge-license]: LICENSE
 [badge-license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat&logo=opensourceinitiative&logoColor=white
-[badge-megalinter]: https://github.com/andrewvaughan/template-core/actions/workflows/mega-linter.yml?query=branch%3Amain
-[badge-megalinter-img]: https://github.com/andrewvaughan/template-core/actions/workflows/mega-linter.yml/badge.svg?branch=main
-[badge-pr-rate]: https://github.com/andrewvaughan/template-core/graphs/commit-activity/
-[badge-pr-rate-img]: https://img.shields.io/github/commit-activity/m/andrewvaughan/template-core/main?logo=github&label=PR%20accepted
-[badge-rel-edge]: https://github.com/andrewvaughan/template-core/commits/main/
-[badge-rel-edge-img]: https://img.shields.io/github/last-commit/andrewvaughan/template-core/main?label=edge%20release
-[badge-rel-prod]: https://github.com/andrewvaughan/template-core/commits/production/
-[badge-rel-prod-img]: https://img.shields.io/github/last-commit/andrewvaughan/template-core/production?label=prod%20release
-[badge-rel-stage]: https://github.com/andrewvaughan/template-core/commits/staging/
-[badge-rel-stage-img]: https://img.shields.io/github/last-commit/andrewvaughan/template-core/staging?label=stage%20release
-[badge-release]: https://github.com/andrewvaughan/template-core/releases
-[badge-release-img]: https://img.shields.io/github/v/release/andrewvaughan/template-core?sort=semver
+[badge-megalinter]: https://github.com/andrewvaughan/tuya-smartlife-api/actions/workflows/mega-linter.yml?query=branch%3Amain
+[badge-megalinter-img]: https://github.com/andrewvaughan/tuya-smartlife-api/actions/workflows/mega-linter.yml/badge.svg?branch=main
+[badge-pr-rate]: https://github.com/andrewvaughan/tuya-smartlife-api/graphs/commit-activity/
+[badge-pr-rate-img]: https://img.shields.io/github/commit-activity/m/andrewvaughan/tuya-smartlife-api/main?logo=github&label=PR%20accepted
+[badge-rel-edge]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/main/
+[badge-rel-edge-img]: https://img.shields.io/github/last-commit/andrewvaughan/tuya-smartlife-api/main?label=edge%20release
+[badge-rel-prod]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/production/
+[badge-rel-prod-img]: https://img.shields.io/github/last-commit/andrewvaughan/tuya-smartlife-api/production?label=prod%20release
+[badge-rel-stage]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/staging/
+[badge-rel-stage-img]: https://img.shields.io/github/last-commit/andrewvaughan/tuya-smartlife-api/staging?label=stage%20release
+[badge-release]: https://github.com/andrewvaughan/tuya-smartlife-api/releases
+[badge-release-img]: https://img.shields.io/github/v/release/andrewvaughan/tuya-smartlife-api?sort=semver
 [code-of-conduct]: .github/CODE_OF_CONDUCT.md
 [contributing]: .github/CONTRIBUTING.md
 [devcontainer]: https://containers.dev
 [devcontainer-readme]: .devcontainer/README.md
-[discussions]: https://github.com/andrewvaughan/template-core/discussions
+[discussions]: https://github.com/andrewvaughan/tuya-smartlife-api/discussions
 [docker]: https://www.docker.com
-[issues]: https://github.com/andrewvaughan/template-core/issues
+[issues]: https://github.com/andrewvaughan/tuya-smartlife-api/issues
 [license]: LICENSE
-[new-issue]: https://github.com/andrewvaughan/template-core/issues/new
-[releases]: https://github.com/andrewvaughan/template-core/releases
-[release-tags]: https://github.com/andrewvaughan/template-core/tags
+[new-issue]: https://github.com/andrewvaughan/tuya-smartlife-api/issues/new
+[releases]: https://github.com/andrewvaughan/tuya-smartlife-api/releases
+[release-tags]: https://github.com/andrewvaughan/tuya-smartlife-api/tags
 [sdlc]: .github/CONTRIBUTING.md#software-development-lifecycle
 [support]: .github/SUPPORT.md
 [vs-code]: https://code.visualstudio.com

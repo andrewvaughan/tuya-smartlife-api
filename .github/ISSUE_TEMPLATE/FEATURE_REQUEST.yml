@@ -21,7 +21,7 @@ body:
       value: >-
         Thank you for taking the time to recommend a feature or submit an idea. Before submitting, please take a moment
         to review the standards on what feature requests Project Maintainers accept in the project's
-        [Contributing Guidelines](/andrewvaughan/template-core/blob/main/.github/CONTRIBUTING.md#submit-an-idea).
+        [Contributing Guidelines](/andrewvaughan/tuya-smartlife-api/blob/main/.github/CONTRIBUTING.md#submit-an-idea).
 
   ##
   # Scope.
@@ -133,7 +133,7 @@ body:
       label: Code of Conduct
       description: >-
         By submitting this Issue, I agree to the terms within and agree to follow this project's
-        [Code of Conduct](https://github.com/andrewvaughan/template-core?tab=coc-ov-file#readme).
+        [Code of Conduct](https://github.com/andrewvaughan/tuya-smartlife-api?tab=coc-ov-file#readme).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

@@ -55,7 +55,7 @@ help:
 	)
 
 	echo
-	printf "    $(_UNDERLINE)$(_FG_BLUE)https://github.com/andrewvaughan/template-core$(_RESET)\n\n"
+	printf "    $(_UNDERLINE)$(_FG_BLUE)https://github.com/andrewvaughan/tuya-smartlife-api$(_RESET)\n\n"
 
 	$(call _info, The following targets are available$(,) which can be called via:, $(HELP_WIDTH))
 

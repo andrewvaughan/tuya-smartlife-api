@@ -3,7 +3,7 @@
   "name": "Branch Release Patterns",
   "target": "branch",
   "source_type": "Repository",
-  "source": "andrewvaughan/template-core",
+  "source": "andrewvaughan/tuya-smartlife-api",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
