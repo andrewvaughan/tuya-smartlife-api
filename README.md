@@ -16,7 +16,7 @@
 
 <!-- vale off -->
 
-# {{PROJECT NAME}}
+# Tuya and Smartlife API
 
 <!-- vale on -->
 
@@ -37,13 +37,13 @@
 
 <!-- markdownlint-enable MD033 -->
 
-{{PROJECT DESC}}
+An NPM package for integrating with the Tuya (aka Smartlife) cloud and local device APIs.
 
 <!-- prettier-ignore-start -->
 <!-- omit from toc -->
 ## Contents
 
-- [{{PROJECT NAME}}](#project-name)
+- [Tuya and Smartlife API](#project-name)
   - [Quick start](#quick-start)
   - [Installation](#installation)
     - [Dependencies](#dependencies)

@@ -10,4 +10,4 @@
 # start this dictionary.
 #
 
-{{PROJECT NAME}}
+Tuya and Smartlife API
