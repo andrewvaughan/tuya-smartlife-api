@@ -1,27 +1,6 @@
-<!-- markdownlint-disable MD041 MD033 -->
-<!-- editorconfig-checker-disable -->
-
-<!-- TODO - Update or remove the hero image. -->
-<div align="center">
-  <a href="https://github.com/andrewvaughan/tuya-smartlife-api" target="blank" title="New Project Template">
-    <!-- markdown-link-check-disable-next-line -->
-    <img
-      src="https://media.githubusercontent.com/media/andrewvaughan/template-assets/main/png/readme/template-banner-1897x499.png"
-      alt="New Project Template"
-      min-height="200px"
-    />
-  </a>
-</div>
-<!-- editorconfig-checker-enable -->
-
-<!-- vale off -->
-
 # Tuya and Smartlife API
 
-<!-- vale on -->
-
-<!-- TODO - Update the URLs for these badges, below, to the appropriate state of the project. -->
-
+<!-- markdownlint-disable MD033 -->
 [![Release][badge-release-img]][badge-release]
 [![License][badge-license-img]][badge-license]
 [![Build Status][badge-build-img]][badge-build]
@@ -30,33 +9,29 @@
 [![PRs Accepted][badge-pr-rate-img]][badge-pr-rate]
 <br/>
 
-[![Edge Release][badge-rel-edge-img]][badge-rel-edge]
-[![Staging Release][badge-rel-stage-img]][badge-rel-stage]
-[![Production Release][badge-rel-prod-img]][badge-rel-prod]
+[![Release][badge-rel-prod-img]][badge-rel-prod]
 [![Changes in Next Release][badge-changes-img]][badge-changes]
-
 <!-- markdownlint-enable MD033 -->
 
-An NPM package for integrating with the Tuya (aka Smartlife) cloud and local device APIs.
+An NPM package for integrating with the Tuya - also known as Smartlife - cloud and local device APIs.
 
 <!-- prettier-ignore-start -->
 <!-- omit from toc -->
 ## Contents
 
-- [Tuya and Smartlife API](#project-name)
-  - [Quick start](#quick-start)
-  - [Installation](#installation)
-    - [Dependencies](#dependencies)
-  - [Usage](#usage)
-    - [Configuration](#configuration)
-  - [Support](#support)
-    - [Frequently asked questions](#frequently-asked-questions)
-  - [Contributing](#contributing)
-    - [Developer installation](#developer-installation)
-      - [Recommended development environment](#recommended-development-environment)
-    - [Testing](#testing)
-  - [Release policy](#release-policy)
-  - [License](#license)
+- [Quick start](#quick-start)
+- [Installation](#installation)
+  - [Dependencies](#dependencies)
+- [Usage](#usage)
+  - [Configuration](#configuration)
+- [Support](#support)
+  - [Frequently asked questions](#frequently-asked-questions)
+- [Contributing](#contributing)
+  - [Developer installation](#developer-installation)
+    - [Recommended development environment](#recommended-development-environment)
+  - [Testing](#testing)
+- [Release policy](#release-policy)
+- [License](#license)
 
 ---
 <!-- prettier-ignore-end -->
@@ -135,8 +110,6 @@ Containers (such as [Visual Studio Code][vs-code]).
 
 For more information, see the [Development Container `README.md`][devcontainer-readme] file.
 
-<!-- TODO - Add any additional information for developers, if necessary. -->
-
 #### Recommended development environment
 
 The Project Maintainers recommend that [Visual Studio Code][vs-code] and [Docker][docker] are the underlying
@@ -207,12 +180,8 @@ The [LICENSE][license] file contains the full text of this project's License.
 [badge-megalinter-img]: https://github.com/andrewvaughan/tuya-smartlife-api/actions/workflows/mega-linter.yml/badge.svg?branch=main
 [badge-pr-rate]: https://github.com/andrewvaughan/tuya-smartlife-api/graphs/commit-activity/
 [badge-pr-rate-img]: https://img.shields.io/github/commit-activity/m/andrewvaughan/tuya-smartlife-api/main?logo=github&label=PR%20accepted
-[badge-rel-edge]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/main/
-[badge-rel-edge-img]: https://img.shields.io/github/last-commit/andrewvaughan/tuya-smartlife-api/main?label=edge%20release
 [badge-rel-prod]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/production/
 [badge-rel-prod-img]: https://img.shields.io/github/last-commit/andrewvaughan/tuya-smartlife-api/production?label=prod%20release
-[badge-rel-stage]: https://github.com/andrewvaughan/tuya-smartlife-api/commits/staging/
-[badge-rel-stage-img]: https://img.shields.io/github/last-commit/andrewvaughan/tuya-smartlife-api/staging?label=stage%20release
 [badge-release]: https://github.com/andrewvaughan/tuya-smartlife-api/releases
 [badge-release-img]: https://img.shields.io/github/v/release/andrewvaughan/tuya-smartlife-api?sort=semver
 [code-of-conduct]: .github/CODE_OF_CONDUCT.md

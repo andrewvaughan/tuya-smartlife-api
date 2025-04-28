@@ -16,6 +16,12 @@
 
 
 ##
+# Act.
+#
+.artifacts/
+
+
+##
 # MegaLinter.
 #
 # @link https://megalinter.io/

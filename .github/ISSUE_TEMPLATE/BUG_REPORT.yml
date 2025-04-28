@@ -24,7 +24,8 @@ body:
         address any bugs found.
 
         > **If you believe this is a Security Issue**, please draft a
-        > [Security Advisory Report](https://github.com/andrewvaughan/tuya-smartlife-api/security/advisories/new) instead.
+        > [Security Advisory Report](https://github.com/andrewvaughan/tuya-smartlife-api/security/advisories/new)
+        > instead.
 
   ## -------------------------------------------------------------------------------------------------------------------
   # Environment.

@@ -24,33 +24,34 @@
 #
 
 *.bat      text eol=crlf
-*.coffee   text
-*.css      text
+*.coffee   text eol=lf
+*.css      text eol=lf
 *.htm      text diff=html
 *.html     text diff=html
-*.inc      text
-*.ini      text
-*.js       text
-*.json     text
-*.jsx      text
-*.less     text
-*.od       text
-*.onlydata text
-*.php      text diff=php
-*.pl       text
-*.py       text diff=python
-*.rb       text diff=ruby
-*.sass     text
-*.scm      text
-*.scss     text
+*.inc      text eol=lf
+*.ini      text eol=lf
+*.js       text eol=lf
+*.json     text eol=lf
+*.jsx      text eol=lf
+*.less     text eol=lf
+*.mk       text eol=lf
+*.od       text eol=lf
+*.onlydata text eol=lf
+*.php      text eol=lf diff=php
+*.pl       text eol=lf
+*.py       text eol=lf diff=python
+*.rb       text eol=lf diff=ruby
+*.sass     text eol=lf
+*.scm      text eol=lf
+*.scss     text eol=lf
 *.sh       text eol=lf
-*.sql      text
-*.styl     text
-*.tag      text
-*.ts       text
-*.tsx      text
-*.vue      text
-*.xml      text
+*.sql      text eol=lf
+*.styl     text eol=lf
+*.tag      text eol=lf
+*.ts       text eol=lf
+*.tsx      text eol=lf
+*.vue      text eol=lf
+*.xml      text eol=lf
 *.xhtml    text diff=html
 
 
@@ -58,8 +59,8 @@
 # Docker.
 #
 
-*.dockerignore text
-Dockerfile     text
+*.dockerignore text eol=lf
+Dockerfile     text eol=lf
 
 
 ##
@@ -67,28 +68,29 @@ Dockerfile     text
 #
 
 *.ipynb      text
-*.markdown   text
-*.md         text
-*.mdwn       text
-*.mdown      text
-*.mkd        text
-*.mkdn       text
-*.mdtxt      text
-*.mdtext     text
-*.txt        text
-AUTHORS      text
-CHANGELOG    text
-CHANGES      text
-CONTRIBUTING text
-COPYING      text
-copyright    text
-*COPYRIGHT*  text
-INSTALL      text
-license      text
-LICENSE      text
-NEWS         text
-readme       text
-*README*     text
+*.markdown   text eol=lf
+*.md         text eol=lf
+*.mdwn       text eol=lf
+*.mdown      text eol=lf
+*.mkd        text eol=lf
+*.mkdn       text eol=lf
+*.mdtxt      text eol=lf
+*.mdtext     text eol=lf
+*.txt        text eol=lf
+AUTHORS      text eol=lf
+CHANGELOG    text eol=lf
+CHANGES      text eol=lf
+CODEOWNERS   text eol=lf
+CONTRIBUTING text eol=lf
+COPYING      text eol=lf
+copyright    text eol=lf
+*COPYRIGHT*  text eol=lf
+INSTALL      text eol=lf
+license      text eol=lf
+LICENSE      text eol=lf
+NEWS         text eol=lf
+readme       text eol=lf
+*README*     text eol=lf
 
 
 ##
@@ -115,37 +117,41 @@ readme       text
 # Linters.
 #
 
-.csslintrc    text
-.eslintrc     text
-.htmlhintrc   text
-.jscsrc       text
-.jshintrc     text
-.jshintignore text
-.stylelintrc  text
+.csslintrc          text eol=lf
+.eslintrc           text eol=lf
+.htmlhintrc         text eol=lf
+.jscsrc             text eol=lf
+.jshintrc           text eol=lf
+.jshintignore       text eol=lf
+.jsonlintrc         text eol=lf
+.markdownlintignore text eol=lf
+.prettierignore     text eol=lf
+.stylelintrc        text eol=lf
 
 
 ##
 # Configurations.
 #
 
-*.bowerrc       text
-*.cnf           text
-*.conf          text
-*.config        text
-.babelrc        text
-.browserslistrc text
-.editorconfig   text
-.env            text
-.gitattributes  text
-.gitconfig      text
-.htaccess       text
-*.lock          text
-*.npmignore     text
-*.yaml          text
-*.yml           text
-browserslist    text
-Makefile        text
-makefile        text
+*.bowerrc       text eol=lf
+*.cnf           text eol=lf
+*.conf          text eol=lf
+*.config        text eol=lf
+.babelrc        text eol=lf
+.browserslistrc text eol=lf
+.editorconfig   text eol=lf
+.env            text eol=lf
+.gitattributes  text eol=lf
+.gitconfig      text eol=lf
+.gitignore      text eol=lf
+.htaccess       text eol=lf
+*.lock          text eol=lf
+*.npmignore     text eol=lf
+*.yaml          text eol=lf
+*.yml           text eol=lf
+browserslist    text eol=lf
+Makefile        text eol=lf
+makefile        text eol=lf
 
 
 ##

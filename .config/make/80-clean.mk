@@ -70,8 +70,9 @@ clean-tests:
 	$(call _header, Cleaning test artifacts)
 
 	$(call _recursive_purge, *megalinter*.txt)
-	$(call _recursive_purge, megalinter-reports, d)
+	$(call _recursive_purge, .artifacts, d)
 	$(call _recursive_purge, .ruff_cache, d)
+	$(call _recursive_purge, megalinter-reports, d)
 
 	$(MAKE) stop-lint-containers
 

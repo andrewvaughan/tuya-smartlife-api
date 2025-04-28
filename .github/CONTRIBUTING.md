@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-> **Last Updated:** October 14, 2023
+> **Last Updated:** April 28, 2025
 
 This [project][project] would not exist without its Contributors, and you are very welcome to join in this endeavor.
 This guide is for anyone who wants to contribute in any way.
@@ -16,34 +16,31 @@ when first working with this community's projects.
 <!-- omit from toc -->
 ## Contents
 
-- [Contributing Guidelines](#contributing-guidelines)
-  - [Agreement](#agreement)
-  - [Ways to contribute](#ways-to-contribute)
-    - [Report a bug](#report-a-bug)
-      - [Reporting a security vulnerability](#reporting-a-security-vulnerability)
-    - [Submit an idea](#submit-an-idea)
-    - [Support, questions, and forums](#support-questions-and-forums)
-  - [Working on Issues](#working-on-issues)
-    - [Software Development Lifecycle](#software-development-lifecycle)
-      - [`Status: 01-Pending Initiation`](#status-01-pending-initiation)
-      - [`Status: 02-In Progress`](#status-02-in-progress)
-      - [`Status: 03-Code Review`](#status-03-code-review)
-      - [`Status: 04-Pending Staging`](#status-04-pending-staging)
-      - [`Status: 05-Staged`](#status-05-staged)
-      - [`Status: 06-Released`](#status-06-released)
-    - [Issue triage](#issue-triage)
-    - [Submission requirements](#submission-requirements)
-      - [Testing](#testing)
-      - [Code style](#code-style)
-      - [Branch naming conventions](#branch-naming-conventions)
-      - [Commit message conventions](#commit-message-conventions)
-        - [Commit message title](#commit-message-title)
-        - [Commit message body](#commit-message-body)
-      - [Signed commits](#signed-commits)
-  - [Releases](#releases)
-    - [Semantic Versioning](#semantic-versioning)
-  - [Hot-Fixes and critical Releases](#hot-fixes-and-critical-releases)
-  - [Standards subject to change](#standards-subject-to-change)
+- [Agreement](#agreement)
+- [Ways to contribute](#ways-to-contribute)
+  - [Report a bug](#report-a-bug)
+    - [Reporting a security vulnerability](#reporting-a-security-vulnerability)
+  - [Submit an idea](#submit-an-idea)
+  - [Support, questions, and forums](#support-questions-and-forums)
+- [Working on Issues](#working-on-issues)
+  - [Software Development Lifecycle](#software-development-lifecycle)
+    - [`Status: 01-Pending Initiation`](#status-01-pending-initiation)
+    - [`Status: 02-In Progress`](#status-02-in-progress)
+    - [`Status: 03-Code Review`](#status-03-code-review)
+    - [`Status: 04-Pending Release`](#status-04-pending-release)
+    - [`Status: 05-Staged`](#status-05-staged)
+    - [`Status: 06-Released`](#status-06-released)
+  - [Issue triage](#issue-triage)
+  - [Submission requirements](#submission-requirements)
+    - [Testing](#testing)
+    - [Code style](#code-style)
+    - [Branch naming conventions](#branch-naming-conventions)
+    - [Commit message conventions](#commit-message-conventions)
+    - [Signed commits](#signed-commits)
+- [Releases](#releases)
+  - [Semantic Versioning](#semantic-versioning)
+- [Hot-Fixes and critical Releases](#hot-fixes-and-critical-releases)
+- [Standards subject to change](#standards-subject-to-change)
 
 ---
 <!-- prettier-ignore-end -->
@@ -334,7 +331,7 @@ When all reviewers accept the Pull Request, the following actions occur:
 > **Note:** While the Issue is technically "closed" at this point by GitHub, it's not "done." This project's
 > **Definition of Done** is when the Issue is in the `Status: 06-Released` state per the Issue's status label.
 
-#### `Status: 04-Pending Staging`
+#### `Status: 04-Pending Release`
 
 At this point in the Software Development Lifecycle, the work for the Contributor is effectively complete, apart from
 the rare occurrence where end-to-end integration tests - which occur immediately after the acceptance of a Pull
@@ -608,7 +605,7 @@ Date:   Fri Aug 1 22:57:55 2014 +0200
 
 #### Signed commits
 
-You are required to [signed all commits][sign-commits] for acceptance into this Repository.
+This project requires you to [signed all commits][sign-commits] for acceptance into this Repository.
 
 It's possible that Project Maintainers _may_ have to squash unverified commits into verified commits during this
 transition to meet new project standards. If you use unsigned commits, this means you may potentially lose your
@@ -641,7 +638,7 @@ in the Branch for that Issue.
 
 Unlike [`main`][branch-main] Branch commits, the entire end-to-end codebase **must** be fully linted and tested any time
 a [`staging`][branch-staging] or [`production`][branch-production] Branch Pull Request occurs. While rare,
-occasionally, Issues occur in these end-to-end tests that do not appear in earlier testing phases.
+occasionally, Issues occur in these end-to-end tests that don't appear in earlier testing phases.
 
 Code Review of the Pull Request **should** focus on user acceptance testing and ensuring that the project works as
 expected. When Project Maintainers accept such a Pull Request, a rebase strategy **must** happen when merging the two
@@ -724,7 +721,7 @@ your Issues and Pull Requests with the code `:candy:`.
 
 [branch-main]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/main
 [branch-production]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/production
-[branch-staging]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/staging
+[branch-staging]: https://github.com/andrewvaughan/tuya-smartlife-api/tree/production
 [cert-origin]: https://developercertificate.org/
 [codeowners]: CODEOWNERS
 [commit-example]: https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6

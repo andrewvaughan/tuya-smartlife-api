@@ -10,4 +10,5 @@
 # start this dictionary.
 #
 
-Tuya and Smartlife API
+Smartlife
+Tuya

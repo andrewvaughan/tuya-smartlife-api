@@ -11,6 +11,7 @@
     "**/.idea/**",
     "**/report/**",
     "**/*.svg",
+    ".artifacts",
     "megalinter-reports"
   ]
 }

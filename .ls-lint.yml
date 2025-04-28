@@ -1,3 +1,13 @@
 ---
 ls:
   .*: "kebab-case"
+
+ignore:
+  - "**/README.md"
+  - ".artifacts"
+  - ".config/linters/vale/styles/Google/*"
+  - ".github/**/*.json"
+  - ".github/**/*.md"
+  - ".github/**/*.yml"
+  - "megalinter-reports"
+  - "node_modules"
