@@ -33,7 +33,7 @@ echo
 echo "This will make file changes within your repository!"
 echo
 
-Make sure there are no unstaged or non-committed changes
+# Make sure there are no unstaged or non-committed changes
 if [[ $(git status --porcelain=v1 2>/dev/null | wc -l) -ne 0 ]]; then
   _error "There are unstaged and/or uncommitted changes to the repository."
 
